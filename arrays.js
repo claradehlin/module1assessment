@@ -22,12 +22,16 @@ console.log(colorCopy)
 
 const numbers = [1, 2, 3, 4, 5]
 
-middleNums = numbers
+// middleNums = numbers
 
-middleNums.pop(middleNums[0]);
-middleNums.shift(middleNums[middleNums.length]);
+// middleNums.pop(middleNums[0]);
+// middleNums.shift(middleNums[middleNums.length]);
 
-console.log (middleNums)
+// console.log (middleNums)
+
+middleNums = numbers.slice(1,4)
+
+console.log(middleNums)
 
 
 //////////////////PROBLEM 4////////////////////
