@@ -8,8 +8,8 @@
 // Planning
 // Analysis of Requirements
 // Design
-// Testing & Integration
 // Implementation
+// Testing & Integration
 // Maintain
 
 
