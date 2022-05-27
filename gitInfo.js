@@ -68,7 +68,7 @@ let status = {
 
 let add = {
     description: 'adds a change in the working directory to the staging area',
-    code: 'git add'
+    code: 'git add .'
 }
 
 //////////////////PROBLEM 7////////////////////
@@ -77,7 +77,10 @@ let add = {
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+    description: 'captures a snapshot of the currently staged changes in a project',
+    code: 'git commit -m "first commit"'
+}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -86,4 +89,7 @@ let add = {
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description: 'uploads local respository content to a remote repository',
+    code: 'git push -u origin main'
+}
