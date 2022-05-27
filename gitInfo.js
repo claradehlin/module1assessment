@@ -46,7 +46,7 @@ let init = {
 
 let clone = {
     description: 'copies an existing Git repository in a new directory at another location',
-    code: 'git clone'
+    code: 'git clone <URL>'
 }
 
 //////////////////PROBLEM 5////////////////////
@@ -61,7 +61,7 @@ let status = {
 }
 
 //////////////////PROBLEM 6////////////////////
-/*
+/*qu
     Create an object called 'add' with 'description' and 'code' properties 
     following the guidelines above to describe the add command.
 */
